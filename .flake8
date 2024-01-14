@@ -1,0 +1,9 @@
+[flake8]
+max-line-length = 110
+noqa-require-code = True
+extend-exclude =
+    # virtual environment inside project folder
+    .venv,
+extend-ignore =
+    # Whitespace before ':' not correctly handled in slices
+    E203

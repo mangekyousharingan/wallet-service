@@ -3,7 +3,6 @@ from starlette.responses import JSONResponse
 
 
 def create_http_controller() -> FastAPI:
-
     controller = FastAPI()
 
     @controller.get("/healthz")
